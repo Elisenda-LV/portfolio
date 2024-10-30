@@ -3,24 +3,22 @@
 </div>
 <div class="row m-5 pb-5">
   <div class="col-12">
-    <h5 class="">Below are the projects I find most relevant. Feel free to explore the others too, as they’re equally important to my work. :)</h5>
+    <p class="">Below are the projects I find most relevant. Feel free to explore the others too, as they’re equally important to my work. :)</p>
   </div>
 </div>
-<div class="row m-5 pt-5">
+<div class="row m-5 pt-3">
   <h2 class="text-center">highlighted projects</h2>
 </div>
 <div class="row m-5">
   @for(highlight of highlights; track $index){
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-4 pb-4">
       <div class="card p-4">
         <i class="fa-brands fa-github text-center m-3" style="color: #000000; font-size: 10em;"></i>
         <div class="card-body">
           <h4 class="card-title">{{ highlight.title }}</h4>
           <p class="text-secondary pt-3">{{ highlight.description }}</p>
           <span class="text-primary pe-2" *ngFor="let tag of highlight.tags">#{{ tag }}</span>
-
-          <!-- TODO: add link to project -->
-          <a href="https://github.com/Elisenda-LV/matchday" class="btn btn-dark mt-4" target="_blank">View project</a>
+          <a [href]="highlight.link" class="btn btn-dark mt-4" target="_blank">View project</a>
         </div>
       </div>
     </div>
@@ -39,8 +37,7 @@
         <th scope="row" class="text-secondary fw-light py-3">{{ allproject.year }}</th>
         <td>{{ allproject.name }}</td>
         <td class="text-secondary fw-light">{{ allproject.company }}</td>
-         <!-- TODO: add link to project -->
-        <td><a href="https://github.com/Elisenda-LV" class="btn btn-outline-dark " target="_blank">View Project</a></td>
+        <td><a [href]="allproject.link" class="btn btn-outline-dark " target="_blank">View Project</a></td>
         <td><i class="fa-solid fa-circle-chevron-down" style="color: #000000;"></i></td>
       </tr>
       <tr *ngIf="showDetails[$index]" class="project-details">

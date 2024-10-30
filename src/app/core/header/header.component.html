@@ -4,25 +4,28 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <i class="fa-solid fa-bars" style="color:white; size:light"></i>
     </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas offcanvas-top bg-black" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">offcanvas</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">elisenda lópez</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
       </div>
       <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <ul class="navbar-nav text-center flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="'/aboutme'">about me</a>
+            <a class="nav-link" [routerLink]="'/'" data-bs-dismiss="offcanvas"><h2 class="text-light">home</h2></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="'/cv'">cv</a>
+            <a class="nav-link" [routerLink]="'/aboutme'" data-bs-dismiss="offcanvas"><h2 class="text-light">about me</h2></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="'/projects'">projects</a>
+            <a class="nav-link" [routerLink]="'/cv'" data-bs-dismiss="offcanvas"><h2 class="text-light">cv</h2></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/projects'" data-bs-dismiss="offcanvas"><h2 class="text-light">projects</h2></a>
           </li>
           <li class="nav-item pt-5">
-            <a href="https://www.linkedin.com/in/elisenda-lv/"><i class="fa-brands fa-linkedin-in pe-5" style="color:black"></i></a>
-            <a href="https://github.com/Elisenda-LV"><i class="fa-brands fa-github" style="color:black"></i></a>
+            <a href="https://www.linkedin.com/in/elisenda-lv/" target="_blank"><i class="fa-brands fa-linkedin-in pe-5" style="color:white"></i></a>
+            <a href="https://github.com/Elisenda-LV" target="_blank"><i class="fa-brands fa-github" style="color:white"></i></a>
           </li>
         </ul>
       </div>
