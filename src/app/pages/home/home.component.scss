@@ -11,13 +11,24 @@
   background-color: rgb(233, 116, 53);
 }
 
-h1, h5{
+h1, h5, p{
   font-weight: lighter;
 }
 
-button{
+.btn{
   border-radius:20pt;
   font-weight: lighter;
+  // border:none;
 }
+
+img{
+  width: 75%;
+
+}
+.resume{
+  width: 100%;
+}
+
+
 
 

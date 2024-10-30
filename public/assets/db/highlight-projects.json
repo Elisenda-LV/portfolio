@@ -1,0 +1,20 @@
+[
+  {
+    "title": "⚽ matchday",
+    "description": "A personal project that I initially completed to finish my frontend studies. I decided to start it over from scratch to improve upon aspects I hadn’t considered before, such as SOLID Principles or Clean Code, and it is currently in development.",
+    "link":"https://github.com/Elisenda-LV/matchday",
+    "tags":["angular", "typescript","eslint", "testing", "solid", "cleancode", "frontend"]
+  },
+  {
+    "title": "⚽ matchday - backend",
+    "description": "This REST API, developed with Node.js, Express, and Sequelize to connect to MariaDB. It is currently in development.",
+    "link":"https://github.com/Elisenda-LV/matchday-backend",
+    "tags":["node.js", "express", "sequelize", "mariaDB", "backend"]
+  },
+  {
+    "title": "🧩 ita challenges",
+    "description": "ITA Challenges, an open-source project I participated in with a team of nine people. It’s an application designed for students to access programming challenges and track their progress to improve their skills.",
+    "link":"https://github.com/IT-Academy-BCN/ita-challenges-frontend",
+    "tags":["angular", "typescript","eslint", "testing", "jest", "scrum", "frontend"]
+  }
+]

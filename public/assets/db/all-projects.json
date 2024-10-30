@@ -1,0 +1,35 @@
+[
+  {
+    "year": 2024,
+    "name":"Star Tech App",
+    "company":"Hackaton NASA Space Apps Challenge",
+    "link":"https://github.com/orgs/StarTechSpaceApps/repositories",
+    "description":"This Angular application aims to create a quiz to raise awareness about the effects of climate change. It was developed in 48h to participate in the NASA Space Apps Challenge Hackathon",
+    "tags":["angular", "typescript","frontend", "scss", "html", "api", "hackaton", "nasa"]
+  },
+  {
+    "year": 2024,
+    "name":"FIFA",
+    "company":"Vueling University",
+    "link":"https://fifa-vue.vercel.app",
+    "description":"Angular app showcasing the lowest-ranked players in the FIFA ranking. Developed as a practice project for Vueling University with my teammate Ignasi Gurrea.",
+    "tags":["angular", "typescript","eslint","frontend", "vueling", "i18n", "scss", "html", "breadcrumb", "pairprogramming"]
+  },
+  {
+    "year": 2024,
+    "name":"FCB Stats",
+    "company":"Vueling University",
+    "link":"https://github.com/Elisenda-LV/fcbweb",
+    "description":"Angular application developed to display the roster and statistics of FC Barcelona's first team. Developed as a practice project for Vueling University.",
+    "tags":["angular", "typescript","eslint","frontend", "vueling", "i18n", "scss", "html", "breadcrumb"]
+  },
+  {
+    "year": 2023,
+    "name":"Starwars",
+    "company":"IT Academy: Bootcamp Angular ",
+    "link":"https://starwars-three-sable.vercel.app/home",
+    "description":"This Angular application connects to the Star Wars API and provides user authentication and registration functionalities using Guards.",
+    "tags":["angular", "typescript","frontend", "scss", "html", "login", "register", "guards", "api"]
+  }
+
+]
