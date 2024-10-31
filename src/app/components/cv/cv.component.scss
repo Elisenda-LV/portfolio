@@ -17,3 +17,11 @@
 .accordion-button.collapsed::after {
   filter: invert(0);
 }
+
+.card{
+  border: none;
+}
+
+h5,h6, p{
+  font-weight: lighter;
+}
