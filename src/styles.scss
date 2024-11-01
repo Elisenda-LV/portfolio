@@ -1,12 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
-h1, h2, h3, h4 {
+
+/* Css Reset */
+
+* { margin: 0; padding: 0; }
+*, *::before, *::after { box-sizing: border-box; }
+
+body { min-height: 100dvh; }
+input, button, textarea, select { font: inherit; }
+
+p { text-wrap: pretty; }
+h1, h2, h3, h4, h5, h6 { text-wrap: balance; }
+
+img, video, svg { height: auto; max-width: 100%; }
+
+@media (prefers-reduced-motion: reduce)  {
+ *, *::before, *::after {
+ animation-duration: 0.01ms !important;
+ animation-iteration-count: 1 !important;
+ transition-duration: 0.01ms !important;
+ scroll-behavior: auto !important;
+ transition: none;
+ }
+}
+
+/* global styles */
+
+h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
 }
 
-h5{
-  font-family: 'Montserrat', sans-serif;
 
+/* accordion */
+
+.accordion-button {
+  background-color: white;
+  color: black;
+  border: none;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: black;
+  box-shadow: none;
+}
 
+.accordion-button::after {
+  filter: invert(0);
+}
+
+.accordion-button.collapsed::after {
+  filter: invert(0);
+}
+
+/* card */
+.card{
+  border-radius: 20pt;
+  border: none;
+}

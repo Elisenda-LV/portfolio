@@ -1,25 +1,6 @@
 .profile-img {
   width: 80%;
 }
-.accordion-button {
-  background-color: white;
-  color: black;
-  border: none;
-}
-
-.accordion-button:not(.collapsed) {
-  background-color: white;
-  color: black;
-  box-shadow: none;
-}
-
-.accordion-button::after {
-  filter: invert(0);
-}
-
-.accordion-button.collapsed::after {
-  filter: invert(0);
-}
 
 h4{
   border: 1px solid rgb(200, 197, 197);
@@ -30,10 +11,5 @@ h4{
 
 }
 
-h5,h6, p{
-  font-weight: lighter;
-}
 
-.card{
-  border: none;
-}
+

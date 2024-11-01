@@ -1,24 +1,6 @@
-.bg-about{
-  background-color: rgb(70, 155, 240);
-
-}
-
-.bg-cv{
-  background-color: rgb(247, 230, 46);
-}
-
-.bg-projects{
-  background-color: rgb(233, 116, 53);
-}
-
-h1, h5, p{
-  font-weight: lighter;
-}
-
 .btn{
   border-radius:20pt;
   font-weight: lighter;
-
   //border:none;
 }
 
@@ -28,6 +10,10 @@ img{
 }
 .resume{
   width: 100%;
+}
+
+a{
+  color: black;
 }
 
 
