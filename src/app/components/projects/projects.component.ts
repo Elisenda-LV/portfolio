@@ -4,11 +4,12 @@ import { ProjectsService } from '../../services/projects.service';
 import { Highlights } from '../../models/highlights.interface';
 import { AllProjects } from '../../models/allprojects.interface';
 import { Router } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })

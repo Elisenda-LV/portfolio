@@ -1,0 +1,23 @@
+{
+  "home-title": "Hola! Sóc l'Elisenda, frontend developer apassionada per crear experiències d'usuari intuïtives :)",
+  "home-cv-title": "cv",
+  "home-cv-subtitle": "Després de diversos anys en banca i en una fintech, on vaig descobrir el fascinant món de la programació, vaig decidir emprendre un canvi professional i vaig aprofitar una pausa en la meva carrera per formar-me com a desenvolupadora frontend.",
+  "home-projects-title": "projectes",
+  "home-projects-subtitle": "Explora els meus projectes: solucions creatives i funcionals on he aplicat les meves habilitats de frontend i disseny per crear experiències impactants.",
+  "about-title": "sobre mi",
+  "about-subtitle": "Amb una formació en Administració d'Empreses per la UAB, vaig descobrir la meva passió per la programació i vaig fer una pausa en la meva carrera per centrar-me en el desenvolupament frontend, especialitzant-me en Angular. Ara aporto una sòlida combinació d'habilitats analítiques i creativitat a cada projecte.",
+  "about-soft-skills": "soft skills",
+  "about-tech-skills": "tech skills",
+  "about-formal-education": "educació formal",
+  "about-additional-education": "educació addicional",
+  "about-interests": "interessos",
+  "about-interests-description": "En el meu temps lliure, m'encanta submergir-me en llibres i assistir a concerts, gaudint de l'energia de la música en directe. També gaudeixo d'aventures a l'aire lliure, ja sigui pujant a la muntanya a l'hivern o relaxant-me a la platja a l'estiu amb la meva furgoneta. A més, jugo en un equip de futbol de 7, on aprecio l'amistat i l'esperit d'equip que comporta l'esport.",
+  "cv-title": "cv",
+  "cv-subtitle": "La meva experiència en banca em va ensenyar <strong>precisió</strong>, <strong>resolució de problemes</strong> i una mentalitat <strong>orientada al client</strong>, habilitats que ara aplico al desenvolupament. Combino rigor analític amb creativitat per oferir experiències d'usuari fluides i impactants.",
+  "cv-experience": "experiència professional",
+  "projects-title": "projectes",
+  "projects-subtitles": "A continuació es mostren els projectes que considero més rellevants. <strong>No dubtis a explorar</strong> els altres també, ja que són igualment importants per a <strong>la meva feina.</strong> :)",
+  "highlighted-projects": "projectes destacats",
+  "all-projects": "tots els projectes"
+}
+

@@ -1,0 +1,23 @@
+{
+  "home-title": "Hi! I'm Elisenda, a frontend developer passionate about creating intuitive user experiences :)",
+  "home-cv-title": "cv",
+  "home-cv-subtitle": "After years in banking and at a fintech company, where I discovered the exciting world of programming, I took on a professional reskilling journey and used a career break to train as a frontend developer.",
+  "home-projects-title": "projects",
+  "home-projects-subtitle":"Explore my projects: creative and functional solutions where I’ve applied my frontend and design skills to create impactful experiences.",
+  "about-title":"about me",
+  "about-subtitle":"With a Business Administration background from UAB, I discovered my passion for programming and took a career break to focus on frontend development, specializing in Angular. I now bring a strong mix of analytical skills and creativity to each project.",
+  "about-soft-skills":"soft skills",
+  "about-tech-skills":"tech skills",
+  "about-education":"education",
+  "about-formal-education":"Formal Education",
+  "about-additional-education":"Additional Education",
+  "about-interests":"interests",
+  "about-interests-description": "In my free time, I love to immerse myself in books and attend concerts, enjoying the energy of live music. I also enjoy outdoor adventures, whether it's hitting the mountains in winter or relaxing at the beach in summer with my van. Additionally, I play on a 7-a-side football team, where I appreciate the friendship and team spirit that come with the sport.",
+  "cv-title":"cv",
+  "cv-subtitle":"My banking experience taught me <strong>precision</strong>, <strong>problem-solving</strong>, and a <strong>client-focused</strong> mindset—skills I now apply to development. I combine analytical rigor with creativity to deliver seamless, impactful user experiences.",
+  "cv-experience":"professional experience",
+  "projects-title":"projects",
+  "projects-subtitles":"Below are the projects I find most relevant. <strong>Feel free to explore</strong> the others too, as they’re equally important to <strong>my work.</strong> :)",
+  "highlighted-projects":"highlighted projects",
+  "all-projects":"all projects"
+}
