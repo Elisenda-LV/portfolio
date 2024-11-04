@@ -1,14 +1,23 @@
 <div class="row bg-black p-5">
-  <div class="col-12">
-    <h1 class="text-white">contact</h1>
+  <div class="col-12 col-md-4 p-5">
+    <h6 class="text-secondary">CONTACT ME</h6>
+    <span class="text-white fw-light d-block">elisenda.lv&#64;gmail.com</span>
+    <span class="text-white fw-light d-block">+34 659 883 272</span>
+    <span class="text-white fw-light d-block">From Barcelona</span>
+  </div>
+  <div class="col-12 col-md-4 p-5">
+    <h6 class="text-secondary">FOLLOW ME</h6>
+      <a class="text-white fw-light d-block" href="https://www.linkedin.com/in/elisenda-lv/" target="_blank">Linkedin</a>
+      <a class="text-white fw-light d-block"href="https://github.com/Elisenda-LV" target="_blank">GitHub</a>
+  </div>
+  <div class="col-12 col-md-4 p-5">
+    <h6 class="text-secondary">PORTFOLIO</h6>
+    <a class="text-white d-block" [routerLink]="'/aboutme'">{{ 'about-title' | translate }}</a>
+    <a class="text-white d-block" [routerLink]="'/cv'">{{ 'home-cv-title' | translate }}</a>
+    <a class="text-white d-block" [routerLink]="'/projects'">{{ 'home-projects-title' | translate }}</a>
   </div>
 </div>
-<div class="row bg-black px-5 py-2 pb-5">
-  <span class="text-white fw-lighter">elisenda.lv&#64;gmail.com</span>
-  <span class="text-white fw-lighter">+34 659 883 272</span>
-  <span class="text-white fw-lighter">From Barcelona</span>
-  <li class="nav-item pt-5">
-    <a href="https://www.linkedin.com/in/elisenda-lv/" target="_blank"><i class="fa-brands fa-linkedin-in pe-5" style="color:white"></i></a>
-    <a href="https://github.com/Elisenda-LV" target="_blank"><i class="fa-brands fa-github" style="color:white"></i></a>
-  </li>
+<div class="row bg-black p-5">
+  <p class="text-secondary text-center d-block "> <strong>&copy; 2024 Elisenda López. All rights reserved.</strong></p>
+  <p class="text-secondary text-center">Developed with <strong>Angular</strong>, <strong>TypeScript</strong>, and <strong>SCSS</strong>, and optimized for multiple devices. Additional tools: <strong>Git</strong> for version control and <strong>Vercel</strong> for hosting.</p>
 </div>

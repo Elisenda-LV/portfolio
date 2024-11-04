@@ -1,1 +1,13 @@
+a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: inherit; /* Mantiene el color del texto del enlace */
+}
 
+a:hover {
+  text-decoration: underline; /* Opcional: Añade subrayado al pasar el ratón */
+}
+
+p{
+  font-size: 10pt;
+  font-weight: lighter;
+}
