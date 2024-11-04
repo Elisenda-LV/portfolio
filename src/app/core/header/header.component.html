@@ -15,17 +15,24 @@
             <a class="nav-link" [routerLink]="'/'" data-bs-dismiss="offcanvas"><h2 class="text-light">home</h2></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="'/aboutme'" data-bs-dismiss="offcanvas"><h2 class="text-light">about me</h2></a>
+            <a class="nav-link" [routerLink]="'/aboutme'" data-bs-dismiss="offcanvas"><h2 class="text-light">{{ 'about-title' | translate }}</h2></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="'/cv'" data-bs-dismiss="offcanvas"><h2 class="text-light">cv</h2></a>
+            <a class="nav-link" [routerLink]="'/cv'" data-bs-dismiss="offcanvas"><h2 class="text-light">{{ 'home-cv-title' | translate }}</h2></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="'/projects'" data-bs-dismiss="offcanvas"><h2 class="text-light">projects</h2></a>
+            <a class="nav-link" [routerLink]="'/projects'" data-bs-dismiss="offcanvas"><h2 class="text-light">{{ 'home-projects-title' | translate }}</h2></a>
           </li>
-          <li class="nav-item pt-5">
-            <a href="https://www.linkedin.com/in/elisenda-lv/" target="_blank"><i class="fa-brands fa-linkedin-in pe-5" style="color:white"></i></a>
-            <a href="https://github.com/Elisenda-LV" target="_blank"><i class="fa-brands fa-github" style="color:white"></i></a>
+          <li class="nav-item py-5">
+            <a href="https://www.linkedin.com/in/elisenda-lv/" target="_blank"><i class="fa-brands fa-linkedin-in fa-2x pe-5" style="color:white"></i></a>
+            <a href="https://github.com/Elisenda-LV" target="_blank"><i class="fa-brands fa-github fa-2x" style="color:white"></i></a>
+          </li>
+          <li class="nav-item d-flex justify-content-center pt-4">
+            <select class="form-select text-secondary ps-5" [(ngModel)]="selectedLanguage" (change)="onLanguageChange()" >
+              <option value="es">castellano</option>
+              <option value="en">english</option>
+              <option value="ca">català</option>
+            </select>
           </li>
         </ul>
       </div>

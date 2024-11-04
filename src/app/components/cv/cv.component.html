@@ -1,12 +1,12 @@
 <div class="row border-bottom py-4 px-5">
-  <h1 class="">cv</h1>
+  <h1 class="">{{ 'cv-title' | translate }}</h1>
 </div>
 <div class="row p-md-5 p-4">
   <div class="col-12 col-md-5 text-center">
     <img class="cv-img" src="/assets/img/cv-cercle.png" alt="profile">
   </div>
   <div class="col-12 col-md-7 p-md-5 p-4 text-md-end">
-    <h2 class="py-5 px-2">My banking experience taught me <strong>precision</strong>, <strong>problem-solving</strong>, and a <strong>client-focused</strong> mindset—skills I now apply to development. I combine analytical rigor with creativity to deliver seamless, impactful user experiences.</h2>
+    <h2 class="py-5 px-2" [innerHTML]="'cv-subtitle' | translate"></h2>
   </div>
 </div>
 
@@ -14,7 +14,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <h1 class="px-4">professional experience</h1>
+        <h1 class="px-4">{{ 'cv-experience' | translate }}</h1>
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse p-4" aria-labelledby="headingOne" data-bs-parent="#accordion1">
