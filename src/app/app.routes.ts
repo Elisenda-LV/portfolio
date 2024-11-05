@@ -6,7 +6,7 @@ export const routes: Routes = [
 
   {
     path: '',
-    title: 'portfolio',
+    title: 'elisenda\'s portfolio :)',
     data: { breadcrumb: 'Home'},
     loadComponent: () => import('./pages/home/home.component').then(c => c.HomeComponent),
 
