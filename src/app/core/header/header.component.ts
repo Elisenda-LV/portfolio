@@ -13,7 +13,7 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  selectedLanguage: string = 'es';
+  selectedLanguage: string = 'en';
 
   @Output() languageChange = new EventEmitter<string>();
 
