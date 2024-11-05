@@ -10,7 +10,7 @@
   </div>
 </div>
 
-<div class="accordion" id="accordion1">
+<!-- <div class="accordion" id="accordion1">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -36,12 +36,12 @@
     </div>
   </div>
 </div>
-
-<div class="accordion" id="accordion2">
+ -->
+<!-- <div class="accordion" id="accordion2">
   <div class="accordion-item">
     <h2 class="accordion-header" id="heading2">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-        <h1 class="px-4">{{ 'all-projects' | translate }}</h1>
+        <h1 class="px-4">{{ 'highlighted-projects' | translate }}</h1>
       </button>
     </h2>
   </div>
@@ -52,15 +52,30 @@
           <div class="card bg-light p-4">
             <div class="card-body">
               <h5 class="card-title fw-bolder">{{ allproject.name }}</h5>
-              <span class="text-primary fw-light">{{ allproject.company }}</span>
+              <span class="text-secondary fw-light">{{ allproject.company }}</span>
               <p class="card-text">{{ allproject.description }}</p>
-              <a [href]="allproject.link" class="text-dark d-block pt-4 " target="_blank">+ View Project</a>
+              <a [href]="allproject.link" class="btn btn-outline-dark d-block" target="_blank">+ View Project</a>
             </div>
           </div>
         </div>
       }
     </div>
   </div>
+</div> -->
+
+<div class="row border-bottom p-5">
+  <h1 class="p-4">{{ 'highlighted-projects' | translate }}</h1>
+  @for(allproject of allProjects; track $index){
+    <div class="col-md-4 mb-3">
+      <div class="card bg-light p-4">
+        <div class="card-body">
+          <h5 class="card-title fw-bolder">{{ allproject.name }}</h5>
+          <span class="text-secondary fw-light">{{ allproject.company }}</span>
+          <p class="card-text">{{ allproject.description }}</p>
+          <span class="text-primary pe-1" *ngFor="let tag of allproject.tags">#{{ tag }}</span>
+          <a [href]="allproject.link" class="btn btn-outline-dark d-block mt-4" target="_blank">+ View Project</a>
+        </div>
+      </div>
+    </div>
+  }
 </div>
-
-
