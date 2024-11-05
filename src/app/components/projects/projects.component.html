@@ -6,7 +6,7 @@
     <img class="projects-img" src="/assets/img/projects-cercle.png" alt="projects">
   </div>
   <div class="col-12 col-md-7 text-md-end p-5 mt-5">
-    <h2 [innerHTML]="'projects-subtitle' | translate"></h2>
+    <h2 [innerHTML]="'projects-subtitles' | translate"></h2>
   </div>
 </div>
 
@@ -46,26 +46,19 @@
     </h2>
   </div>
   <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion2">
-    <div class="row m-5 pb-5">
-      <table class="table-responsive-md pb-5">
-        @for(allproject of allProjects; track $index){
-        <tbody class="" (click)="toggleDetails($index)">
-          <tr [ngClass]="{'highlight': showDetails[$index]}">
-            <th scope="row" class="text-secondary fw-light py-3">{{ allproject.year }}</th>
-            <td>{{ allproject.name }}</td>
-            <td class="text-secondary fw-light">{{ allproject.company }}</td>
-            <td><a [href]="allproject.link" class="btn btn-outline-dark " target="_blank">View Project</a></td>
-            <td><i class="fa-solid fa-circle-chevron-down" style="color: #000000;"></i></td>
-          </tr>
-          <tr *ngIf="showDetails[$index]" class="project-details">
-            <td class="p-4" colspan="5">
-              <p class="text-secondary">{{ allproject.description }}</p>
-              <span class="text-primary pe-2" *ngFor="let tag of allproject.tags">#{{ tag }}</span>
-            </td>
-          </tr>
-        </tbody>
-        }
-      </table>
+    <div class="row p-5">
+      @for(allproject of allProjects; track $index){
+        <div class="col-md-3 mb-3 mb-sm-0">
+          <div class="card bg-light p-4">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">{{ allproject.name }}</h5>
+              <span class="text-primary fw-light">{{ allproject.company }}</span>
+              <p class="card-text">{{ allproject.description }}</p>
+              <a [href]="allproject.link" class="text-dark d-block pt-4 " target="_blank">+ View Project</a>
+            </div>
+          </div>
+        </div>
+      }
     </div>
   </div>
 </div>

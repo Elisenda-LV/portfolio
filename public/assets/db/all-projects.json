@@ -1,7 +1,7 @@
 [
   {
     "year": 2024,
-    "name":"Star Tech App",
+    "name":"Star Tech",
     "company":"Hackaton NASA Space Apps Challenge",
     "link":"https://github.com/orgs/StarTechSpaceApps/repositories",
     "description":"This Angular application aims to create a quiz to raise awareness about the effects of climate change. It was developed in 48h to participate in the NASA Space Apps Challenge Hackathon",
