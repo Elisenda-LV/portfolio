@@ -21,7 +21,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'elv portfolio';
-  selectedLanguage = 'es';
+  selectedLanguage = 'en';
 
   constructor(private translateService: TranslateService){
     this.translateService.setDefaultLang(this.selectedLanguage);
