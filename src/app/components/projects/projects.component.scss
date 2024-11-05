@@ -1,11 +1,18 @@
-.btn-dark{
+.btn{
   border-radius:20pt;
   width: 100%;
-}
-.btn-outline-dark{
-  border-radius:20pt;
   font-weight: lighter;
   font-size:10pt;
+}
+
+.form-select{
+  border-radius:20pt;
+  font-weight: lighter;
+  border: none;
+  font-size: 11pt;
+  color: rgb(111, 104, 104);
+
+
 }
 
 .projects-img {

@@ -10,70 +10,30 @@
   </div>
 </div>
 
-<!-- <div class="accordion" id="accordion1">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <h1 class="px-4">{{ 'highlighted-projects' | translate }}</h1>
-      </button>
-    </h2>
-  </div>
-  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion1">
-    <div class="row m-5">
-      @for(highlight of highlights; track $index){
-        <div class="col-12 col-md-4 pb-4">
-          <div class="card bg-light p-4">
-            <i class="fa-brands fa-github text-center m-3" style="color: #000000; font-size: 10em;"></i>
-            <div class="card-body">
-              <h4 class="card-title">{{ highlight.title }}</h4>
-              <p class=" pt-3">{{ highlight.description }}</p>
-              <span class="text-primary pe-2" *ngFor="let tag of highlight.tags">#{{ tag }}</span>
-              <a [href]="highlight.link" class="btn btn-dark mt-4" target="_blank">View project</a>
-            </div>
-          </div>
-        </div>
-      }
-    </div>
-  </div>
-</div>
- -->
-<!-- <div class="accordion" id="accordion2">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="heading2">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-        <h1 class="px-4">{{ 'highlighted-projects' | translate }}</h1>
-      </button>
-    </h2>
-  </div>
-  <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion2">
-    <div class="row p-5">
-      @for(allproject of allProjects; track $index){
-        <div class="col-md-3 mb-3 mb-sm-0">
-          <div class="card bg-light p-4">
-            <div class="card-body">
-              <h5 class="card-title fw-bolder">{{ allproject.name }}</h5>
-              <span class="text-secondary fw-light">{{ allproject.company }}</span>
-              <p class="card-text">{{ allproject.description }}</p>
-              <a [href]="allproject.link" class="btn btn-outline-dark d-block" target="_blank">+ View Project</a>
-            </div>
-          </div>
-        </div>
-      }
-    </div>
-  </div>
-</div> -->
+<div class="row p-5">
+  <h1 class="border-bottom p-4 mb-5">{{ 'highlighted-projects' | translate }}</h1>
+  <form class="p-3">
+    <select class="form-select mb-5 bg-light ps-4" [(ngModel)]="selectedTag" (change)="filterProjects()" name="selectedTag">
+      <option value="">{{ 'filter-projects' | translate }}</option>
+      <option value="angular">Angular</option>
+      <option value="typescript">TypeScript</option>
+      <option value="node">Node</option>
+      <option value="mariaDB">MariaDB</option>
+      <option value="react">React</option>
+      <option value="frontend">Frontend</option>
+      <option value="backend">Backend</option>
+    </select>
+  </form>
 
-<div class="row border-bottom p-5">
-  <h1 class="p-4">{{ 'highlighted-projects' | translate }}</h1>
-  @for(allproject of allProjects; track $index){
+  @for(allproject of filteredProjects; track $index){
     <div class="col-md-4 mb-3">
       <div class="card bg-light p-4">
         <div class="card-body">
           <h5 class="card-title fw-bolder">{{ allproject.name }}</h5>
-          <span class="text-secondary fw-light">{{ allproject.company }}</span>
+          <span class="text-secondary fw-light pt-5">{{ allproject.company }}</span>
           <p class="card-text">{{ allproject.description }}</p>
           <span class="text-primary pe-1" *ngFor="let tag of allproject.tags">#{{ tag }}</span>
-          <a [href]="allproject.link" class="btn btn-outline-dark d-block mt-4" target="_blank">+ View Project</a>
+          <a [href]="allproject.link" class="btn btn-dark d-block mt-5" target="_blank">+ View Project</a>
         </div>
       </div>
     </div>

@@ -19,5 +19,6 @@
   "projects-title":"projects",
   "projects-subtitles":"Below are the projects I find most relevant. <strong>Feel free to explore</strong> the others too, as they’re equally important to <strong>my work.</strong> :)",
   "highlighted-projects":"highlighted projects",
-  "all-projects":"all projects"
+  "all-projects":"all projects",
+  "filter-projects": "filter projects"
 }
