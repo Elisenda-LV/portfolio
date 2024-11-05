@@ -1,7 +1,7 @@
 <div class="row border-bottom py-4 px-5">
   <h1 class="">{{ 'projects-title' | translate }}</h1>
 </div>
-<div class="row m-md-5 pb-5">
+<div class="row m-md-5">
   <div class="col-12 col-md-5 text-center">
     <img class="projects-img" src="/assets/img/projects-cercle.png" alt="projects">
   </div>
@@ -11,9 +11,9 @@
 </div>
 
 <div class="row p-5">
-  <h1 class="border-bottom p-4 mb-5">{{ 'highlighted-projects' | translate }}</h1>
-  <form class="p-3">
-    <select class="form-select mb-5 bg-light ps-4" [(ngModel)]="selectedTag" (change)="filterProjects()" name="selectedTag">
+  <!-- <h1 class="border-bottom p-4 mb-5">{{ 'highlighted-projects' | translate }}</h1> -->
+  <form class="">
+    <select class="form-select mb-5 ps-4" [(ngModel)]="selectedTag" (change)="filterProjects()" name="selectedTag">
       <option value="">{{ 'filter-projects' | translate }}</option>
       <option value="angular">Angular</option>
       <option value="typescript">TypeScript</option>
