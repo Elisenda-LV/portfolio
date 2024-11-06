@@ -29,10 +29,10 @@
       <div class="card bg-light p-4">
         <div class="card-body">
           <h5 class="card-title fw-bolder">{{ allproject.name }}</h5>
-          <span class="text-secondary fw-light pt-5">{{ allproject.company }}</span>
-          <p class="card-text">{{ allproject.description }}</p>
-          <span class="text-primary pe-1" *ngFor="let tag of allproject.tags">#{{ tag }}</span>
-          <a [href]="allproject.link" class="btn btn-dark d-block mt-5" target="_blank">+ View Project</a>
+          <span class="text-primary fw-light pt-5">{{ allproject.company }}</span>
+          <p class="card-text text-secondary">{{ allproject.description }}</p>
+          <!-- <span class="text-primary pe-1" *ngFor="let tag of allproject.tags">#{{ tag }}</span> -->
+          <a [href]="allproject.link" class="btn btn-outline-dark d-block mt-4" target="_blank">+ View Project</a>
         </div>
       </div>
     </div>
