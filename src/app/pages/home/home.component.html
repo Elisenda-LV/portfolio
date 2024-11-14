@@ -12,7 +12,14 @@
   <div class="col-12 col-md-6 order-2 order-md-1 p-md-5 p-4">
     <h1>{{ 'home-cv-title' | translate}}</h1>
     <p>{{ 'home-cv-subtitle' | translate }}</p>
-    <a [routerLink]="'/cv'" >+ explore my CV</a>
+<!--     <a [routerLink]="'/cv'" >+ explore my CV</a>
+    <a href="/assets/elisenda_lv_cv.pdf" download="elisenda_lv_cv.pdf" >+ download my cv</a> -->
+    <div>
+      <a [routerLink]="'/cv'">+ explore my cv</a>
+    </div>
+    <div>
+      <a href="/assets/elisenda_lv_cv.pdf" download="elisenda_lv_cv.pdf">+ download my cv</a>
+    </div>
   </div>
   <div class="col-12 col-md-6 order-1 order-md-2 text-center p-3">
     <!-- <img class="work" src="/assets/img/work.png" alt="work"> -->
