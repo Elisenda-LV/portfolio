@@ -1,11 +1,27 @@
 [
   {
     "year": 2024,
+    "name":"Portfolio",
+    "company":"Personal Project",
+    "link":"https://github.com/Elisenda-LV/portfolio",
+    "description":"This is my portfolio project built with Angular. Take a look and let me know what you think :)",
+    "tags":["angular", "typescript","frontend", "scss", "html", "portfolio", "i18n"]
+  },
+  {
+    "year": 2024,
     "name":"Star Tech",
     "company":"Hackaton NASA Space Apps Challenge",
     "link":"https://github.com/orgs/StarTechSpaceApps/repositories",
     "description":"This Angular application aims to create a quiz to raise awareness about the effects of climate change. It was developed in 48h to participate in the NASA Space Apps Challenge Hackathon",
     "tags":["angular", "typescript","frontend", "scss", "html", "api", "hackaton", "nasa"]
+  },
+  {
+    "year": 2024,
+    "name":"Gif App",
+    "company":"Udemy Course",
+    "link":"https://github.com/Elisenda-LV/gif-app",
+    "description":"Application to display GIFs using a search engine. It is developed with React, Vite, and JavaScript.",
+    "tags":["react", "javascript","frontend", "css", "html"]
   },
   {
     "year": 2024,
