@@ -1,7 +1,7 @@
 {
-  "home-title": "¡Hola! Soy Elisenda, desarrolladora frontend apasionada por crear experiencias de usuario intuitivas :)",
+  "home-title": "¡Hola! Soy Elisenda, desarrolladora frontend enfocada en crear experiencias de usuario intuitivas :)",
   "home-cv-title": "cv",
-  "home-cv-subtitle": "Tras varios años en banca y en una fintech, donde descubrí el apasionante mundo de la programación, decidí emprender un cambio profesional y aproveché una pausa en mi carrera para formarme como desarrolladora frontend.",
+  "home-cv-subtitle": "Tras varios años en banca y en una fintech, donde descubrí el apasionante mundo de la programación, decidí emprender un cambio profesional y formarme como desarrolladora frontend.",
   "home-projects-title": "proyectos",
   "home-projects-subtitle": "Explora mis proyectos: soluciones creativas y funcionales en las que he aplicado mis habilidades de frontend y diseño para crear experiencias impactantes.",
   "about-title": "sobre mí",
@@ -14,13 +14,21 @@
   "about-interests": "intereses",
   "about-interests-description": "En mi tiempo libre, me encanta sumergirme en libros y asistir a conciertos, disfrutando de la energía de la música en vivo. También disfruto de aventuras al aire libre, ya sea subiendo a la montaña en invierno o relajándome en la playa en verano con mi furgoneta. Además, juego en un equipo de fútbol de 7, donde aprecio la amistad y el espíritu de equipo que conlleva el deporte.",
   "cv-title": "cv",
-  "cv-subtitle": "Mi experiencia en banca me enseñó <strong>precisión</strong>, <strong>resolución de problemas</strong> y una mentalidad <strong>orientada al cliente</strong>, habilidades que ahora aplico al desarrollo. Combino rigor analítico con creatividad para ofrecer experiencias de usuario fluidas e impactantes.",
+  "cv-subtitle": "Mi experiencia en banca me enseñó <strong>precisión</strong>, <strong>resolución de problemas</strong> y una mentalidad <strong>orientada al cliente</strong>, habilidades que ahora aplico al desarrollo. Combino rigor analítico con creatividad para aportar soluciones y ofrecer experiencias de usuario fluidas.",
   "cv-experience": "experiencia profesional",
+  "cv-bbva":"Durante 12 años en el sector bancario, evolucioné desde gestora comercial en oficinas, brindando atención personalizada y asesoramiento financiero, hasta gestionar carteras de activos como servicer, optimizando su rentabilidad y asegurando el cumplimiento de objetivos estratégicos. Esta trayectoria me permitió desarrollar una sólida experiencia en gestión de clientes, análisis financiero y resolución de problemas complejos.",
+  "cv-bbva-skills":"Gestión de cuentas · Gestión del tiempo · Trabajo en equipo · Capacidad de análisis · Resolución de incidencias",
+  "cv-lem":"En LEM Loan eMarket, una fintech ubicada en Barcelona, desempeñé un rol multifacético como Key Account Manager y en Marketing Digital durante toda la pandemia. Este entorno dinámico me permitió adaptarme rápidamente y colaborar estrechamente con el equipo de IT para desarrollar el marketplace y gestionar el creciente volumen de nuevos usuarios. Gracias a mi experiencia en banca, contribuí al diseño del producto y a la optimización del proceso de compra, aportando un enfoque estratégico y centrado en el cliente. Fue en esta experiencia donde descubrí mi pasión por la programación y aprendí cómo se trabaja en una empresa tecnológica, lo que marcó el inicio de mi transición profesional hacia el desarrollo de software.",
+  "cv-lem-skills":"Gestión de cuentas · Estrategia de marketing · Relación con el cliente · Gestión del tiempo · Trabajo en equipo · Facilidad de adaptación · Salesforce Marketing Cloud · Capacidad de análisis · Jira · Resolución de incidencias",
+  "cv-ita":"Formo parte del desarrollo de una plataforma de desafíos de programación como Frontend Developer especializada en Angular, colaborando dentro de un equipo de nueve personas. Trabajamos con metodología SCRUM, donde participo activamente en tareas como testing, maquetación y desarrollo de funcionalidades web, así como en la integración con diversas APIs. Además, tuve la oportunidad de presentar la versión Beta de la aplicación al cliente, demostrando nuestro enfoque centrado en la calidad y la entrega de valor.",
+  "cv-ita-skills":"API de Postman · Diseño web · HTML · Git · Bootstrap · Desarrollo web · AI · Componentes web · Visual Studio · Gestión del tiempo · Angular · Trabajo en equipo · Node.js · CSS · SQL · JavaScript · GitHub · Copilot · MariaDB · Capacidad de análisis · Programación orientada a objetos (POO) · Chat GPT · Resolución de incidencias",
+  "cv-capitole":"En Vueling, tuve la oportunidad de consolidarme como Frontend Developer especializada en Angular, trabajando en proyectos clave dentro de una compañía del Ibex 35. Participé activamente en un entorno ágil bajo la metodología SCRUM, donde gestioné tareas y flujos de trabajo con herramientas como Azure DevOps. Esta experiencia no solo fortaleció mis habilidades técnicas, sino que también me permitió colaborar en equipo y contribuir a soluciones escalables y eficientes.",
+  "cv-capitole-skills":"Buenas prácticas (GxP) · Desarrollo front end · API de Postman · Diseño web · HTML · Git · Document Object Model · Páginas web · MySQL · Prueba unitaria · Vanilla · Desarrollo web · JSON Web Token (JWT) · Jest · Ejecución de pruebas · Base de datos relacional · AI · Xcode · SCRUM · Componentes web · Visual Studio · Bases de datos · Gestión del tiempo · Control de versiones · Angular · Trabajo en equipo · CSS · Testing de aplicaciones · SQL · JavaScript · GitHub · Copilot · MariaDB · Capacidad de análisis · Programación orientada a objetos (POO) · Chat GPT · Estructuras de datos · Resolución de incidencias",
   "projects-title": "proyectos",
   "projects-subtitles": "Estos son los proyectos que considero más destacados :)",
   "highlighted-projects": "proyectos destacados",
   "all-projects": "todos los proyectos",
   "filter-projects": "filtrar proyectos"
 
- }
+}
 
